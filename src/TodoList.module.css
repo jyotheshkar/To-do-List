@@ -1,0 +1,143 @@
+/* TodoList.module.css */
+
+/* Container styles */
+.container {
+    max-width: 800px; /* Set maximum width */
+    width: 90%; /* Adjusted to be responsive */
+    height: auto; /* Auto height to fit content */
+    margin: 10rem auto; /* Center horizontally and vertically */
+    border: 1px solid #e0e0e0; /* Set border with light gray color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+    background-color: #fff; /* Set background color to white */
+    padding: 2rem; /* Add padding */
+    overflow-y: auto; /* Add vertical scrollbar when content exceeds container height */
+  }
+  
+  /* Task list styles */
+  .taskList {
+    max-height: 400px; /* Adjust as needed */
+    overflow-y: auto; /* Add scrollbar when content exceeds max-height */
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Header styles */
+  .header {
+    margin-bottom: 2rem; /* Add margin bottom */
+  }
+  
+  /* Header title styles */
+  .header h1 {
+    font-size: 28px; /* Set font size */
+    margin-bottom: 1rem; /* Add margin bottom */
+    color: #333; /* Set text color */
+    text-align: center; /* Center align the title */
+  }
+  
+  /* Task input styles */
+  .taskInput {
+    display: flex; /* Use flexbox for input elements */
+    margin-top: 1rem; /* Add margin top */
+  }
+  
+  /* Task input text input styles */
+  .taskInput input {
+    flex: 1; /* Take remaining width */
+    padding: 12px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    border: 1px solid #000000; /* Change border color to black */
+    border-radius: 4px; /* Add border radius */
+  }
+  
+  /* Task input button styles */
+  .taskInput button {
+    padding: 12px 20px; /* Add padding */
+    margin-left: 10px; /* Add margin left */
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Add pointer cursor */
+    font-size: 16px; /* Set font size */
+  }
+  
+  /* Task input button hover styles */
+  .taskInput button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  /* Task item styles */
+  .taskItem {
+    padding: 10px; /* Add padding */
+    border-radius: 4px; /* Add border radius */
+    border: 1px solid #000000; /* Set border with black color */
+    margin-bottom: 10px; /* Add margin bottom */
+    display: flex; /* Use flexbox for item layout */
+    align-items: center; /* Align items vertically */
+  }
+  
+  /* Task item checkbox styles */
+  .taskItem input[type="checkbox"] {
+    margin-right: 10px; /* Add margin right */
+    cursor: pointer; /* Add pointer cursor */
+    width: 20px; /* Adjust width */
+    height: 20px; /* Adjust height */
+  }
+  
+  /* Task item text styles */
+  .taskItem span {
+    flex: 1; /* Take remaining width */
+    font-size: 16px; /* Set font size */
+    color: #000000; /* Set text color */
+    word-wrap: break-word; /* Wrap long words */
+    overflow-wrap: break-word; /* Wrap long words */
+    word-break: break-all; /* Break words */
+  }
+  
+  /* Completed task styles */
+  .completed {
+    text-decoration: line-through; /* Add line-through decoration */
+    color: #888; /* Set text color */
+  }
+  
+  /* Task item button styles */
+  .taskItem button {
+    padding: 8px 16px; /* Add padding */
+    margin-left: 10px; /* Add margin left */
+    background-color: #dc3545; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Add pointer cursor */
+    font-size: 14px; /* Set font size */
+  }
+  
+  /* Task item button hover styles */
+  .taskItem button:hover {
+    background-color: #f4051d; /* Change background color on hover */
+  }
+  
+  /* Search bar styles */
+  .searchBar {
+    margin-bottom: 1rem; /* Add margin bottom */
+    display: flex; /* Use flexbox for search bar */
+    justify-content: center; /* Center align the search bar */
+  }
+  
+  /* Search bar input styles */
+  .searchBar input {
+    padding: 12px; /* Add padding */
+    width: 60%; /* Set width */
+    font-size: 16px; /* Set font size */
+    border: 1px solid #000000; /* Change border color to black */
+    border-radius: 4px; /* Add border radius */
+  }
+  
+  /* Search bar input focus styles */
+  .searchBar input:focus {
+    outline: none; /* Remove outline */
+    border-color: #000000; /* Change focus border color to black */
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25); /* Adjust shadow color to black */
+  }
+  
